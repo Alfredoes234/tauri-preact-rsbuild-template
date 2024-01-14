@@ -1,9 +1,9 @@
 import { useState } from "preact/hooks";
-import preactLogo from "./assets/preact.svg";
+import preactLogo from "../../assets/preact.svg";
 import { invoke } from "@tauri-apps/api/tauri";
-import "./App.css";
+import "./home.css";
 
-function App() {
+function Home() {
   const [greetMsg, setGreetMsg] = useState("");
   const [name, setName] = useState("");
 
@@ -50,4 +50,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
