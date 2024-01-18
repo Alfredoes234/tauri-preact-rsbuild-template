@@ -9,7 +9,11 @@ git clone https://github.com/Alfredoes234/tauri-preact-rsbuild-template.git
 ```
 Then you can use your respective package manager
 ```bash
-(npm, pnpm) tauri dev
+(npm or pnpm) install
+```
+Then run the application
+```bash
+(npm or pnpm) tauri dev
 ```
 This will launch the desktop app and can be used in browser for easier use by removing tauri and using run instead
 
