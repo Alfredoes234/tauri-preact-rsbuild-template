@@ -1,6 +1,6 @@
 # Tauri + Preact + Typescript
 
-This template should help get you started developing with Tauri, Preact and Typescript in Rsbuild.
+This template should help get you started developing with Tauri, Preact and Typescript in Rsbuild. Rsbuild is a bit faster than vite so might be worth it for larger applications or places you want to get the most performance.
 
 ## Setup
 First you need to clone the repo
