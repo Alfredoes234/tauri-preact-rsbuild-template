@@ -3,6 +3,14 @@ import { pluginPreact } from '@rsbuild/plugin-preact';
 
 export default defineConfig({
     plugins: [pluginPreact()],
+    html: {
+        favicon: './public/vite.svg',
+    },
+    source: {
+        entry: {
+            index: "./src/index.tsx"
+        }
+    },
     server: {
         port: 1420,
         strictPort: true,

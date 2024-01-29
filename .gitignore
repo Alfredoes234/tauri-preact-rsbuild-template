@@ -25,3 +25,6 @@ dist-ssr
 
 # Probably not needed
 pnpm-lock.yaml
+
+# Tauri stuff
+src-tauri/target/*

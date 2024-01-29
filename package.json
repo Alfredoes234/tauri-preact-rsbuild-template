@@ -12,7 +12,8 @@
   "dependencies": {
     "@tauri-apps/api": "^1.5.2",
     "preact": "^10.16.0",
-    "preact-router": "^4.1.2"
+    "preact-iso": "^2.3.2",
+    "preact-render-to-string": "^6.3.1"
   },
   "devDependencies": {
     "@rsbuild/core": "^0.3.2",

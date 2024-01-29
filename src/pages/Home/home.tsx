@@ -3,7 +3,7 @@ import preactLogo from "../../assets/preact.svg";
 import { invoke } from "@tauri-apps/api/tauri";
 import "./home.css";
 
-function Home() {
+export function Home() {
   const [greetMsg, setGreetMsg] = useState("");
   const [name, setName] = useState("");
 
@@ -49,5 +49,3 @@ function Home() {
     </div>
   );
 }
-
-export default Home;
