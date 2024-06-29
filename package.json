@@ -10,15 +10,14 @@
     "tauri": "tauri"
   },
   "dependencies": {
-    "@tauri-apps/api": "^1.5.2",
-    "preact": "^10.16.0",
-    "preact-iso": "^2.3.2",
-    "preact-render-to-string": "^6.3.1"
+    "@tauri-apps/api": "^1.5.6",
+    "preact": "^10.22.0",
+    "wouter-preact": "^3.3.0"
   },
   "devDependencies": {
-    "@rsbuild/core": "^0.3.2",
-    "@rsbuild/plugin-preact": "^0.3.2",
-    "@tauri-apps/cli": "^1.5.8",
-    "typescript": "^5.0.2"
+    "@rsbuild/core": "^0.3.11",
+    "@rsbuild/plugin-preact": "^0.3.11",
+    "@tauri-apps/cli": "^1.5.14",
+    "typescript": "^5.5.2"
   }
 }

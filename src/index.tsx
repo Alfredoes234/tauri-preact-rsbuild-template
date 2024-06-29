@@ -1,20 +1,21 @@
 import { render } from "preact";
-import { LocationProvider, Router, Route } from "preact-iso";
+import { Route, Switch, Router } from "wouter-preact";
+
 import { Home } from "./pages/Home/home";
-import "./main.css";
 import { NotFound } from "./pages/_404";
+import "./global.css";
 
 export function App() {
-    return (
-        <LocationProvider>
-            <main>
-                <Router>
-                    <Route path="/" component={Home} />
-                    <Route default component={NotFound} />
-                </Router>
-            </main>
-        </LocationProvider>
-    );
+  return (
+    <main>
+      <Router>
+        <Switch>
+          <Route path="/" component={Home} />
+          <Route path="" component={NotFound} />
+        </Switch>
+      </Router>
+    </main>
+  );
 }
 
 render(<App />, document.getElementById("root")!);
